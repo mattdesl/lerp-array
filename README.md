@@ -2,7 +2,7 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-Quickly [lerps](https://nodei.co/npm/lerp-array/) two numbers or two parallel arrays of numbers (e.g. vectors, colors, etc). 
+Quickly [lerps](https://nodei.co/npm/lerp/) two numbers or two parallel arrays of numbers (e.g. vectors, colors, etc). 
 
 ```js
 var lerp = require('lerp-array')
