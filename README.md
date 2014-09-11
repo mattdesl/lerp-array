@@ -1,6 +1,6 @@
 # lerp-array
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 Quickly [lerps](https://nodei.co/npm/lerp/) two numbers or two parallel arrays of numbers (e.g. vectors, colors, etc). 
 
