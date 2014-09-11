@@ -21,7 +21,7 @@ var color3 = lerp(color1, color2, 0.5)
 
 #### `lerp(v1, v2, t[, out])`
 
-Linearly interpolates `v1` to `v2` using the `t` component. If both `v1` and `v2` are number types, this is equivalent to a straight lerp. If the two are array types, they are lerped in parallel. 
+Linearly interpolates `v1` to `v2` using the `t` component. If both `v1` and `v2` are number types, this is equivalent to a straight lerp. If the two are array types, they are lerped in parallel. This assumes both arrays are the same length (only uses the length of `v1`).
 
 You can optionally specify an `out` parameter to re-use an array object. Otherwise, a new one will be created.
 
