@@ -1,0 +1,55 @@
+{
+  "name": "lerp-array",
+  "version": "1.0.0",
+  "description": "lerps two numbers or an array of numbers",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "dependencies": {
+    "lerp": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/lerp-array.git"
+  },
+  "homepage": "https://github.com/mattdesl/lerp-array",
+  "bugs": {
+    "url": "https://github.com/mattdesl/lerp-array/issues"
+  },
+  "keywords": [
+    "lerp",
+    "linear",
+    "interpolate",
+    "interpolation",
+    "array",
+    "number",
+    "arrays",
+    "vector",
+    "color",
+    "tween",
+    "animate",
+    "colors",
+    "vec2",
+    "vec3",
+    "vec4"
+  ]
+}
