@@ -1,6 +1,6 @@
 {
   "name": "lerp-array",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "lerps two numbers or an array of numbers",
   "main": "index.js",
   "license": "MIT",
