@@ -25,6 +25,8 @@ Linearly interpolates `v1` to `v2` using the `t` component. If both `v1` and `v2
 
 You can optionally specify an `out` parameter to re-use an array object. Otherwise, a new one will be created.
 
+If the two arrays have different sizes, the length of the smallest will prevail.
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/mattdesl/lerp-array/blob/master/LICENSE.md) for details.
